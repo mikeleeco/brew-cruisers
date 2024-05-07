@@ -1,0 +1,143 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Icon.js": {
+    "file": "chunks/Icon.js",
+    "name": "Icon",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
+  },
+  "_Seo.js": {
+    "file": "chunks/Seo.js",
+    "name": "Seo",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_functions.js": {
+    "file": "chunks/functions.js",
+    "name": "functions"
+  },
+  "_games.js": {
+    "file": "chunks/games.js",
+    "name": "games"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/(app)/+layout.svelte": {
+    "file": "entries/pages/(app)/_layout.svelte.js",
+    "name": "entries/pages/(app)/_layout.svelte",
+    "src": "src/routes/(app)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_Icon.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/(app)/+page.svelte": {
+    "file": "entries/pages/(app)/_page.svelte.js",
+    "name": "entries/pages/(app)/_page.svelte",
+    "src": "src/routes/(app)/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Seo.js",
+      "_games.js",
+      "_Icon.js"
+    ]
+  },
+  "src/routes/(app)/faq/+page.svelte": {
+    "file": "entries/pages/(app)/faq/_page.svelte.js",
+    "name": "entries/pages/(app)/faq/_page.svelte",
+    "src": "src/routes/(app)/faq/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Seo.js",
+      "_functions.js"
+    ]
+  },
+  "src/routes/(app)/schedule/+page.svelte": {
+    "file": "entries/pages/(app)/schedule/_page.svelte.js",
+    "name": "entries/pages/(app)/schedule/_page.svelte",
+    "src": "src/routes/(app)/schedule/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_games.js",
+      "_Seo.js",
+      "_Icon.js"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "name": "entries/pages/_error.svelte",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Devcnt7F.css"
+    ]
+  }
+}

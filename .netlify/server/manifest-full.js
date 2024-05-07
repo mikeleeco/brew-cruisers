@@ -1,0 +1,52 @@
+export const manifest = (() => {
+function __memo(fn) {
+	let value;
+	return () => value ??= (value = fn());
+}
+
+return {
+	appDir: "_app",
+	appPath: "_app",
+	assets: new Set(["favicon.png","img/logo.png","robots.txt"]),
+	mimeTypes: {".png":"image/png",".txt":"text/plain"},
+	_: {
+		client: {"start":"_app/immutable/entry/start.qmRagfYe.js","app":"_app/immutable/entry/app.DA6yK_nW.js","imports":["_app/immutable/entry/start.qmRagfYe.js","_app/immutable/chunks/entry.CDIPAe7B.js","_app/immutable/chunks/scheduler.O1y47Xgu.js","_app/immutable/entry/app.DA6yK_nW.js","_app/immutable/chunks/scheduler.O1y47Xgu.js","_app/immutable/chunks/index.B2OxlzLm.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		nodes: [
+			__memo(() => import('./nodes/0.js')),
+			__memo(() => import('./nodes/1.js')),
+			__memo(() => import('./nodes/2.js')),
+			__memo(() => import('./nodes/3.js')),
+			__memo(() => import('./nodes/4.js')),
+			__memo(() => import('./nodes/5.js'))
+		],
+		routes: [
+			{
+				id: "/(app)",
+				pattern: /^\/?$/,
+				params: [],
+				page: { layouts: [0,2,], errors: [1,,], leaf: 3 },
+				endpoint: null
+			},
+			{
+				id: "/(app)/faq",
+				pattern: /^\/faq\/?$/,
+				params: [],
+				page: { layouts: [0,2,], errors: [1,,], leaf: 4 },
+				endpoint: null
+			},
+			{
+				id: "/(app)/schedule",
+				pattern: /^\/schedule\/?$/,
+				params: [],
+				page: { layouts: [0,2,], errors: [1,,], leaf: 5 },
+				endpoint: null
+			}
+		],
+		matchers: async () => {
+			
+			return {  };
+		},
+		server_assets: {}
+	}
+}
+})();
