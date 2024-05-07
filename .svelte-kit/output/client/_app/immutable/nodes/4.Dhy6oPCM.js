@@ -1,10 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "../../../../chunks/ssr.js";
-import { S as Seo, C as ContainerLayout } from "../../../../chunks/Seo.js";
-import "../../../../chunks/functions.js";
-const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Seo, "Seo").$$render($$result, { title: "Brew Cruisers FAQ" }, {}, {})} ${validate_component(ContainerLayout, "ContainerLayout").$$render($$result, {}, {}, {
-    "main-panel": () => {
-      return `<div slot="main-panel" data-svelte-h="svelte-pod4wv"><h1>FAQ</h1> <h2>A bike rack tailgate?</h2>
+import{s as g,a as p,c as y,i as b,d as f,e as k,b as w,g as v,h as $,n as I}from"../chunks/scheduler.O1y47Xgu.js";import{S as W,i as _,c as h,a as l,m as c,t as u,b as m,d}from"../chunks/index.B2OxlzLm.js";import{S as T,C as B}from"../chunks/Seo.B2N6sLob.js";import"../chunks/functions.7WSLLGk3.js";function x(n){let t,o=`<h1>FAQ</h1> <h2>A bike rack tailgate?</h2>
 		Yes! We hang out at the bike racks before the game.
 		<h2>Why?</h2>
 		Because we love watching baseball and riding bicycles.
@@ -80,10 +74,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		Our standard route follows the Hank Aaron Trail on Canal Street.
 		<h2>Where can I find more bike rack tailgates?</h2>
 		Chicago! The idea for this ride was inspired by the
-		<a href="https://chicagobikesox.com/">https://chicagobikesox.com/</a>.</div>`;
-    }
-  })}`;
-});
-export {
-  Page as default
-};
+		<a href="https://chicagobikesox.com/">https://chicagobikesox.com/</a>.`;return{c(){t=k("div"),t.innerHTML=o,this.h()},l(a){t=w(a,"DIV",{slot:!0,"data-svelte-h":!0}),v(t)!=="svelte-pod4wv"&&(t.innerHTML=o),this.h()},h(){$(t,"slot","main-panel")},m(a,r){b(a,t,r)},p:I,d(a){a&&f(t)}}}function C(n){let t,o,a,r;return t=new T({props:{title:"Brew Cruisers FAQ"}}),a=new B({props:{$$slots:{"main-panel":[x]},$$scope:{ctx:n}}}),{c(){h(t.$$.fragment),o=p(),h(a.$$.fragment)},l(e){l(t.$$.fragment,e),o=y(e),l(a.$$.fragment,e)},m(e,i){c(t,e,i),b(e,o,i),c(a,e,i),r=!0},p(e,[i]){const s={};i&1&&(s.$$scope={dirty:i,ctx:e}),a.$set(s)},i(e){r||(u(t.$$.fragment,e),u(a.$$.fragment,e),r=!0)},o(e){m(t.$$.fragment,e),m(a.$$.fragment,e),r=!1},d(e){e&&f(o),d(t,e),d(a,e)}}}class Y extends W{constructor(t){super(),_(this,t,null,C,g,{})}}export{Y as component};
