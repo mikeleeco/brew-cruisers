@@ -1,7 +1,6 @@
 import { c as create_ssr_component, v as validate_component, b as each, d as add_attribute, e as escape } from "../../../chunks/ssr.js";
 import { S as Seo, C as ContainerLayout } from "../../../chunks/Seo.js";
-import { g as games } from "../../../chunks/games.js";
-import { I as Icon } from "../../../chunks/Icon.js";
+import { I as Icon, g as games } from "../../../chunks/games.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Seo, "Seo").$$render($$result, {}, {}, {})} ${validate_component(ContainerLayout, "ContainerLayout").$$render($$result, {}, {}, {
     column: () => {

@@ -8,14 +8,6 @@
       "_internal.js"
     ]
   },
-  "_Icon.js": {
-    "file": "chunks/Icon.js",
-    "name": "Icon",
-    "imports": [
-      "_ssr.js",
-      "_functions.js"
-    ]
-  },
   "_Seo.js": {
     "file": "chunks/Seo.js",
     "name": "Seo",
@@ -40,7 +32,11 @@
   },
   "_games.js": {
     "file": "chunks/games.js",
-    "name": "games"
+    "name": "games",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -79,8 +75,8 @@
     "imports": [
       "_ssr.js",
       "_client.js",
-      "_Icon.js",
-      "_index.js"
+      "_index.js",
+      "_functions.js"
     ]
   },
   "src/routes/(app)/+page.svelte": {
@@ -91,8 +87,7 @@
     "imports": [
       "_ssr.js",
       "_Seo.js",
-      "_games.js",
-      "_Icon.js"
+      "_games.js"
     ]
   },
   "src/routes/(app)/faq/+page.svelte": {
@@ -114,8 +109,7 @@
     "imports": [
       "_ssr.js",
       "_games.js",
-      "_Seo.js",
-      "_Icon.js"
+      "_Seo.js"
     ]
   },
   "src/routes/+error.svelte": {

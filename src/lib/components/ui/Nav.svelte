@@ -4,6 +4,7 @@
 	export let links;
 	export let collapsible = false;
 	export let showLinksOnDesktop;
+	import ThemeChanger from "./ThemeChanger.svelte";
 </script>
 
 <div class="navbar bg-primary h-20">
@@ -17,7 +18,6 @@
 					for="nav-collapsible"
 					class="btn base btn-ghost"
 				>
-				
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5 text-neutral"
@@ -48,11 +48,15 @@
 							>
 						{/each}
 					{/if}
+					<br />
+					<div class="text-xs flex flex-col justify-center">
+						<ThemeChanger />
+					</div>
 				</ul>
 			</div>{/if}
 
 		<!-- <slot name="dropdown" /> -->
-		
+
 		<slot name="left-logo" />
 	</div>
 
@@ -63,14 +67,16 @@
 			{#if showLinksOnDesktop}
 				<ul class="menu-horizontal">
 					{#each links as item}
-						<a href={item.path} class={" text-neutral hover:shadow-sm"}>
+						<a
+							href={item.path}
+							class={" text-neutral hover:shadow-sm"}
+						>
 							<li
 								class="item font-semibold border-2 border-transparent p-5 hover:text-accent hover:text-lg"
 							>
 								{item.name}
 							</li></a
 						>
-						
 					{/each}
 				</ul>
 			{/if}
