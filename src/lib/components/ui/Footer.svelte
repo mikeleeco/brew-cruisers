@@ -1,5 +1,7 @@
-<footer class=" bg-primary bg-opacity-30 justify-center p-5 flex flex-col ">
-	<div class="flex flex-col gap-2">
+<footer
+	class=" bg-primary bg-opacity-30 px-5 flex flex-col "
+>
+	<div class="flex flex-col h-20  place-content-evenly">
 		<p class="">Brew Cruisers 2024</p>
 		<div class="gap-5">
 			<div class="flex flex-row gap-5">

@@ -1,6 +1,6 @@
 import { c as create_ssr_component, e as escape, d as add_attribute } from "./ssr.js";
 const ContainerLayout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="h-screen "><div class="flex w-full justify-center sm:px-20">${slots.column ? slots.column({}) : ``}</div> <div class="w-full sm:p-5">${slots["main-panel"] ? slots["main-panel"]({}) : ``}</div></div>`;
+  return `<div class="flex w-full justify-center p-5 sm:px-20">${slots.column ? slots.column({}) : ``}</div> <div class="w-full p-5">${slots["main-panel"] ? slots["main-panel"]({}) : ``}</div>`;
 });
 const Seo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title = "Brew Cruisers" } = $$props;

@@ -1,7 +1,7 @@
 <script>
     export let ride;
     import Icon from "@iconify/svelte";
-    import { format, differenceInDays, endOfDay } from "date-fns";
+    import { format, differenceInDays } from "date-fns";
     let today = new Date();
 
     let rideDate = format(ride.rideTime, "MM/dd");

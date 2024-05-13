@@ -1587,6 +1587,10 @@ button.base:hover {
   flex-direction: column;
 }
 
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
 .justify-center {
   justify-content: center;
 }

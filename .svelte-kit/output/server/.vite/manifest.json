@@ -101,6 +101,18 @@
       "_functions.js"
     ]
   },
+  "src/routes/(app)/next-ride/+page.svelte": {
+    "file": "entries/pages/(app)/next-ride/_page.svelte.js",
+    "name": "entries/pages/(app)/next-ride/_page.svelte",
+    "src": "src/routes/(app)/next-ride/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Seo.js",
+      "_functions.js",
+      "_games.js"
+    ]
+  },
   "src/routes/(app)/schedule/+page.svelte": {
     "file": "entries/pages/(app)/schedule/_page.svelte.js",
     "name": "entries/pages/(app)/schedule/_page.svelte",
@@ -131,7 +143,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Devcnt7F.css"
+      "_app/immutable/assets/_layout.UB5a0fWM.css"
     ]
   }
 }
