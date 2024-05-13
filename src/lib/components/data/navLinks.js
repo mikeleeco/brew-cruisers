@@ -9,10 +9,17 @@ export const links = [
     },
     {
         name: "Schedule",
-        icon: 'ph:person-simple-bike',
+        icon: 'ph:calendar',
         path: '/schedule',
         id: 'schedule',
         index: 1,
         subtitle: 'Schedule of rides.'
+    },    {
+        name: "Next ride",
+        icon: 'ph:person-simple-bike',
+        path: '/next-ride',
+        id: 'next-ride',
+        index: 1,
+        subtitle: 'Information about our next ride.'
     },
 ];

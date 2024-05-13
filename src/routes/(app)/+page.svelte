@@ -4,6 +4,7 @@
 	import { games } from "$components/data/games";
 	import Icon from "@iconify/svelte";
 	import Seo from "$lib/components/utils/Seo.svelte";
+	import Footer from "$components/ui/Footer.svelte";
 </script>
 
 <Seo />

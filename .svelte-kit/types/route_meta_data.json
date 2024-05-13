@@ -2,5 +2,6 @@
 	"/(app)": [],
 	"/": [],
 	"/(app)/faq": [],
+	"/(app)/next-ride": [],
 	"/(app)/schedule": []
 }
