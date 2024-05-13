@@ -26,7 +26,8 @@
 				>Great Roundabout of Walker's Point</a
 			>
 		</p>
-		Find more info at the<a href="/faq">FAQ</a>.
+		Find more info at the
+		<a href="/faq">FAQ</a>.
 		<!-- <p>
 			<span class="text-3xl serif">Date:</span>
 			{ride.date}
