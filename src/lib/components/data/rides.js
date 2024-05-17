@@ -20,7 +20,7 @@ export const rides = [
         color: "#134A8E",
         rideTime: 'Tuesday, June 11, 2024 6:10:00 PM',
         details: "",
-        location: "Great Roundabout of Walker's Point (subject to change)",
+        location: "Great Roundabout of Walker's Point",
         category: "Slow/moderate pace",
     },
     {

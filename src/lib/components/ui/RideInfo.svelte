@@ -4,13 +4,13 @@
     import { format, differenceInDays } from "date-fns";
     let today = new Date();
 
-    let rideDate = format(ride.rideTime, "MM/dd");
-    let rideTime = format(ride.rideTime, "hh:mmbb");
+    let rideDate = format(ride.rideTime, "MMMM dd");
+    let rideTime = format(ride.rideTime, "h:mmbb");
     console.log(today);
     let dayDiff = differenceInDays(ride.rideTime, today);
 </script>
 
-<div class="flex flex-col w-full sm:w-[40%] gap-2">
+<div class="flex flex-col w-full gap-2">
     <div class="flex flex-col w-full gap-2 bg-base-100 p-2">
         <div class="flex flex-row">
             <Icon

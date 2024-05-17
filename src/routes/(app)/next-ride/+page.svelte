@@ -6,8 +6,10 @@
 	import { rides } from "$components/data/rides";
 	import { games } from "$components/data/games";
 	import RideInfo from "$components/ui/RideInfo.svelte";
-	let game = games[0];
-	let ride = rides[0];
+	import { format, differenceInDays } from "date-fns";
+
+	let game = games[1];
+	let ride = rides[1];
 </script>
 
 <Seo title="Brew Cruisers Next Ride" />

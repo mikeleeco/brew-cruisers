@@ -25,7 +25,7 @@ const rides = [
     color: "#134A8E",
     rideTime: "Tuesday, June 11, 2024 6:10:00 PM",
     details: "",
-    location: "Great Roundabout of Walker's Point (subject to change)",
+    location: "Great Roundabout of Walker's Point",
     category: "Slow/moderate pace"
   },
   {
@@ -68,13 +68,13 @@ const rides = [
 const RideInfo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { ride } = $$props;
   let today = /* @__PURE__ */ new Date();
-  let rideDate = format(ride.rideTime, "MM/dd");
-  let rideTime = format(ride.rideTime, "hh:mmbb");
+  let rideDate = format(ride.rideTime, "MMMM dd");
+  let rideTime = format(ride.rideTime, "h:mmbb");
   console.log(today);
   let dayDiff = differenceInDays(ride.rideTime, today);
   if ($$props.ride === void 0 && $$bindings.ride && ride !== void 0)
     $$bindings.ride(ride);
-  return `<div class="flex flex-col w-full sm:w-[40%] gap-2"><div class="flex flex-col w-full gap-2 bg-base-100 p-2"><div class="flex flex-row">${validate_component(Icon, "Icon").$$render(
+  return `<div class="flex flex-col w-full gap-2"><div class="flex flex-col w-full gap-2 bg-base-100 p-2"><div class="flex flex-row">${validate_component(Icon, "Icon").$$render(
     $$result,
     {
       icon: "ph:map-pin-fill",
@@ -108,8 +108,8 @@ const RideInfo = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   )} <p class="subtitle self-center">${escape(rideTime)}</p></div> <div class="flex flex-row gap-2"><p class="subtitle self-center">${escape(!ride?.category ? "" : ride?.category)}</p></div></div></div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  games[0];
-  let ride = rides[0];
+  games[1];
+  let ride = rides[1];
   return `${validate_component(Seo, "Seo").$$render($$result, { title: "Brew Cruisers Next Ride" }, {}, {})} ${validate_component(ContainerLayout, "ContainerLayout").$$render($$result, {}, {}, {
     column: () => {
       return `<div slot="column"><h1 class="pb-5" data-svelte-h="svelte-uv9k0m">Next ride</h1> ${validate_component(RideInfo, "RideInfo").$$render($$result, { ride }, {}, {})} <p class="py-5"><span class="text-3xl serif" data-svelte-h="svelte-105vh87">Details:</span> ${escape(ride.details)}</p> <p class="pb-5" data-svelte-h="svelte-7iwqev">Map: <a href="https://maps.app.goo.gl/MLjQyFxpoP9oG4mw5">Great Roundabout of Walker&#39;s Point</a></p>
