@@ -7,9 +7,15 @@
 	import { games } from "$components/data/games";
 	import RideInfo from "$components/ui/RideInfo.svelte";
 	import { format, differenceInDays } from "date-fns";
+	let today = new Date();
 
-	let game = games[1];
-	let ride = rides[1];
+	const ride = rides.reduce(function (prev, current) {
+		return differenceInDays(today, prev.rideTime) < 0 &&
+			differenceInDays(today, current.rideTime) <
+				differenceInDays(today, prev.rideTime)
+			? prev
+			: current;
+	}); //returns next ride object
 </script>
 
 <Seo title="Brew Cruisers Next Ride" />

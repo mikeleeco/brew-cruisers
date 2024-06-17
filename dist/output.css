@@ -1467,60 +1467,12 @@ button.base:hover {
   margin: 0.25rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[20px\] {
-  margin-left: 20px;
-}
-
-.ml-\[100px\] {
-  margin-left: 100px;
-}
-
-.ml-\[800px\] {
-  margin-left: 800px;
-}
-
-.ml-\[80px\] {
-  margin-left: 80px;
-}
-
-.ml-\[70px\] {
-  margin-left: 70px;
-}
-
 .ml-\[75px\] {
   margin-left: 75px;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .flex {
@@ -1551,36 +1503,12 @@ button.base:hover {
   height: 1.25rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-\[10\%\] {
-  height: 10%;
-}
-
-.h-\[20\%\] {
-  height: 20%;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
 .h-\[100px\] {
   height: 100px;
 }
 
-.h-\[00px\] {
-  height: 00px;
-}
-
-.h-\[80px\] {
-  height: 80px;
+.h-screen {
+  height: 100vh;
 }
 
 .w-48 {
@@ -1591,28 +1519,12 @@ button.base:hover {
   width: 1.25rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
-}
-
-.w-\[85\%\] {
-  width: 85%;
-}
-
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-grow {
@@ -1703,10 +1615,6 @@ button.base:hover {
   gap: 1.25rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
 .self-center {
   align-self: center;
 }
@@ -1755,13 +1663,14 @@ button.base:hover {
   padding: 1.25rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -1774,8 +1683,7 @@ button.base:hover {
   padding-bottom: 1.25rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
+.pb-10 {
   padding-bottom: 2.5rem;
 }
 
@@ -1785,18 +1693,6 @@ button.base:hover {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .pt-6 {

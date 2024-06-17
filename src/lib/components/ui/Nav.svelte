@@ -3,11 +3,12 @@
 
 	export let links;
 	export let collapsible = false;
-	export let showLinksOnDesktop;
+	export let showLinksOnDesktop = true;
+	export let classNames = null;
 	import ThemeChanger from "./ThemeChanger.svelte";
 </script>
 
-<div class="navbar bg-primary h-20">
+<div class={`navbar bg-primary h-20 ${classNames}`}>
 	<div class="navbar-start">
 		<slot name="left" />
 

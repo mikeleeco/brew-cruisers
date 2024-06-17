@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { theme } from '$stores/theme.js';
-	import { browser } from '$app/environment';
 
 	const themes = [
 		{ title: '🌚  Dark', theme: 'dark' },
@@ -14,7 +13,6 @@
 			document.documentElement.setAttribute('data-theme', newTheme);
 			localStorage.theme = newTheme;
 		}
-		console.log('theme:', $theme);
 	}
 
 	
