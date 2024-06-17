@@ -1,6 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../../../chunks/ssr.js";
 import { S as Seo, C as ContainerLayout } from "../../../../chunks/Seo.js";
-import "../../../../chunks/functions.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Seo, "Seo").$$render($$result, { title: "Brew Cruisers FAQ" }, {}, {})} ${validate_component(ContainerLayout, "ContainerLayout").$$render($$result, {}, {}, {
     column: () => {

@@ -8,6 +8,31 @@
       "_internal.js"
     ]
   },
+  "_Icon.js": {
+    "file": "chunks/Icon.js",
+    "name": "Icon",
+    "imports": [
+      "_ssr.js",
+      "_Seo.js"
+    ]
+  },
+  "_Nav.js": {
+    "file": "chunks/Nav.js",
+    "name": "Nav",
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_index.js"
+    ]
+  },
+  "_RideInfo.js": {
+    "file": "chunks/RideInfo.js",
+    "name": "RideInfo",
+    "imports": [
+      "_ssr.js",
+      "_Icon.js"
+    ]
+  },
   "_Seo.js": {
     "file": "chunks/Seo.js",
     "name": "Seo",
@@ -26,17 +51,9 @@
     "file": "chunks/exports.js",
     "name": "exports"
   },
-  "_functions.js": {
-    "file": "chunks/functions.js",
-    "name": "functions"
-  },
   "_games.js": {
     "file": "chunks/games.js",
-    "name": "games",
-    "imports": [
-      "_ssr.js",
-      "_functions.js"
-    ]
+    "name": "games"
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -74,9 +91,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_client.js",
-      "_index.js",
-      "_functions.js"
+      "_Nav.js"
     ]
   },
   "src/routes/(app)/+page.svelte": {
@@ -87,7 +102,8 @@
     "imports": [
       "_ssr.js",
       "_Seo.js",
-      "_games.js"
+      "_games.js",
+      "_Icon.js"
     ]
   },
   "src/routes/(app)/faq/+page.svelte": {
@@ -97,8 +113,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Seo.js",
-      "_functions.js"
+      "_Seo.js"
     ]
   },
   "src/routes/(app)/next-ride/+page.svelte": {
@@ -109,8 +124,28 @@
     "imports": [
       "_ssr.js",
       "_Seo.js",
-      "_functions.js",
-      "_games.js"
+      "_RideInfo.js"
+    ]
+  },
+  "src/routes/(app)/preview-ride/+layout@.svelte": {
+    "file": "entries/pages/(app)/preview-ride/_layout@.svelte.js",
+    "name": "entries/pages/(app)/preview-ride/_layout@.svelte",
+    "src": "src/routes/(app)/preview-ride/+layout@.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/(app)/preview-ride/+page.svelte": {
+    "file": "entries/pages/(app)/preview-ride/_page.svelte.js",
+    "name": "entries/pages/(app)/preview-ride/_page.svelte",
+    "src": "src/routes/(app)/preview-ride/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Seo.js",
+      "_RideInfo.js",
+      "_Nav.js"
     ]
   },
   "src/routes/(app)/schedule/+page.svelte": {
@@ -121,7 +156,8 @@
     "imports": [
       "_ssr.js",
       "_games.js",
-      "_Seo.js"
+      "_Seo.js",
+      "_Icon.js"
     ]
   },
   "src/routes/+error.svelte": {
@@ -143,7 +179,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.UB5a0fWM.css"
+      "_app/immutable/assets/_layout.C_2YVXYT.css"
     ]
   }
 }

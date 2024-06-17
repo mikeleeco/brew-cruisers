@@ -1,8 +1,6 @@
 <script>
 	import Nav from "$components/ui/Nav.svelte";
 	import { links } from "$components/data/navLinks";
-	import Icon from "@iconify/svelte";
-	import ThemeChanger from "$components/ui/ThemeChanger.svelte";
 	import { theme } from "$stores/theme.js";
 	import Footer from "$components/ui/Footer.svelte";
 </script>
