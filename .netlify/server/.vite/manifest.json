@@ -16,23 +16,6 @@
       "_Seo.js"
     ]
   },
-  "_Nav.js": {
-    "file": "chunks/Nav.js",
-    "name": "Nav",
-    "imports": [
-      "_ssr.js",
-      "_client.js",
-      "_index.js"
-    ]
-  },
-  "_RideInfo.js": {
-    "file": "chunks/RideInfo.js",
-    "name": "RideInfo",
-    "imports": [
-      "_ssr.js",
-      "_Icon.js"
-    ]
-  },
   "_Seo.js": {
     "file": "chunks/Seo.js",
     "name": "Seo",
@@ -91,7 +74,8 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Nav.js"
+      "_client.js",
+      "_index.js"
     ]
   },
   "src/routes/(app)/+page.svelte": {
@@ -124,28 +108,7 @@
     "imports": [
       "_ssr.js",
       "_Seo.js",
-      "_RideInfo.js"
-    ]
-  },
-  "src/routes/(app)/preview-ride/+layout@.svelte": {
-    "file": "entries/pages/(app)/preview-ride/_layout@.svelte.js",
-    "name": "entries/pages/(app)/preview-ride/_layout@.svelte",
-    "src": "src/routes/(app)/preview-ride/+layout@.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js"
-    ]
-  },
-  "src/routes/(app)/preview-ride/+page.svelte": {
-    "file": "entries/pages/(app)/preview-ride/_page.svelte.js",
-    "name": "entries/pages/(app)/preview-ride/_page.svelte",
-    "src": "src/routes/(app)/preview-ride/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_Seo.js",
-      "_RideInfo.js",
-      "_Nav.js"
+      "_Icon.js"
     ]
   },
   "src/routes/(app)/schedule/+page.svelte": {

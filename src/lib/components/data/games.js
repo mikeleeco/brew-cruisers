@@ -1,42 +1,50 @@
 export const games = [
-    {
-        name: "Pirates",
-        date: 'May 14th',
-        id: 'pirates1',
-        index: 0,
-        time: '6:40pm CDT',
-        color: "#fdb827"
-    },
-    {
-        name: "Blue Jays",
-        date: 'June 11th',
-        id: 'bluejays',
-        index: 1,
-        time: '7:10pm CDT',
-        color: "#134A8E"
-    },
-    {
-        name: "Pirates",
-        date: 'July 9th',
-        id: 'pirates2',
-        index: 2,
-        time: '7:10pm CDT',
-        color: "#FDB827"
-    },
-    {
-        name: "Dodgers",
-        date: 'August 13th',
-        id: 'dodgers',
-        index: 3,
-        time: '7:10pm CDT',
-        color: "#005A9C"
-    },
-    {
-        name: "Cardinals",
-        date: 'September 3rd',
-        id: 'cardinals',
-        index: 4,
-        time: '6:40pm CDT',
-        color: "#C41E3A"
-    },
+  {
+    name: "Athletics",
+    date: "April 18th",
+    id: "athletics",
+    index: 0,
+    time: "7:10pm CDT",
+    color: "#003831",
+  },
+  {
+    name: "Twins",
+    date: "May 16th",
+    id: "twins",
+    index: 1,
+    time: "7:10pm CDT",
+    color: "#002B5C",
+  },
+  {
+    name: "Padres",
+    date: "June 6th",
+    id: "padres",
+    index: 2,
+    time: "7:10pm CDT",
+    color: "#2F241D",
+  },
+  {
+    name: "Nationals",
+    date: "July 11th",
+    id: "nationals",
+    index: 3,
+    time: "7:10pm CDT",
+    color: "#AB0003",
+  },
+  {
+    name: "Mets",
+    date: "Augst 8th",
+    id: "mets",
+    index: 4,
+    time: "7:10pm CDT",
+    color: "#002D72",
+  },
+  {
+    name: "Cardinals",
+    date: "September 12th",
+    id: "cardinals",
+    index: 4,
+    time: "7:10pm CDT",
+    color: "#C41E3A",
+  },
 ];

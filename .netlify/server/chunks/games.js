@@ -1,42 +1,50 @@
 const games = [
   {
-    name: "Pirates",
-    date: "May 14th",
-    id: "pirates1",
+    name: "Athletics",
+    date: "April 18th",
+    id: "athletics",
     index: 0,
-    time: "6:40pm CDT",
-    color: "#fdb827"
+    time: "7:10pm CDT",
+    color: "#003831"
   },
   {
-    name: "Blue Jays",
-    date: "June 11th",
-    id: "bluejays",
+    name: "Twins",
+    date: "May 16th",
+    id: "twins",
     index: 1,
     time: "7:10pm CDT",
-    color: "#134A8E"
+    color: "#002B5C"
   },
   {
-    name: "Pirates",
-    date: "July 9th",
-    id: "pirates2",
+    name: "Padres",
+    date: "June 6th",
+    id: "padres",
     index: 2,
     time: "7:10pm CDT",
-    color: "#FDB827"
+    color: "#2F241D"
   },
   {
-    name: "Dodgers",
-    date: "August 13th",
-    id: "dodgers",
+    name: "Nationals",
+    date: "July 11th",
+    id: "nationals",
     index: 3,
     time: "7:10pm CDT",
-    color: "#005A9C"
+    color: "#AB0003"
+  },
+  {
+    name: "Mets",
+    date: "Augst 8th",
+    id: "mets",
+    index: 4,
+    time: "7:10pm CDT",
+    color: "#002D72"
   },
   {
     name: "Cardinals",
-    date: "September 3rd",
+    date: "September 12th",
     id: "cardinals",
     index: 4,
-    time: "6:40pm CDT",
+    time: "7:10pm CDT",
     color: "#C41E3A"
   }
 ];
