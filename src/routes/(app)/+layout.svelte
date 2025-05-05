@@ -6,6 +6,8 @@
 </script>
 
 <!-- <Seo title={$page.url.pathname} /> -->
+<!-- <Nav links={null} collapsible={false} showLinksOnDesktop={true}> -->
+
 <Nav {links} collapsible={true} showLinksOnDesktop={true}>
 	<a
 		slot="left-logo"
