@@ -29,7 +29,7 @@
 								width="30"
 								height="30"
 							/>
-							<p class="text-lg">
+							<p class={`text-lg text-[${item.color}]`}>
 								<span class={`underline decoration-accent`}
 									>{item.name}</span
 								>, {item.date} @ {item.time}
