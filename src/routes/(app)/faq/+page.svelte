@@ -17,7 +17,7 @@
     At the bike rack near Tailgate Haus. If available, we'll find a table to share
     nearby.
     <h2>When?</h2>
-    Every first Friday Brewers home game. The next ride is May 14th. Here's the
+    Every first Friday Brewers home game. The next ride is May 20th. Here's the
     <a href="/schedule"> schedule</a>.
     <h2>What should I bring?</h2>
     You, your bike, and a lock.
