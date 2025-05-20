@@ -86,12 +86,14 @@
     Unless otherwise noted, we meet at the Great Roundabout of Walker's Point 75
     minutes before game time and roll out an hour before first pitch. For example
     on April 18th, meet at 5:55pm to roll out at 6:10. The most up to date information
-    is available on our social accounts or at the<a href="/next-ride"
-      >Next ride
-    </a>
+    is available on our social accounts or at the<a href="/next-ride">
+      Next ride</a
+    >
     page.
     <h2>Where can I find more bike rack tailgates?</h2>
     Chicago! The idea for this ride was inspired by the
-    <a href="https://chicagobikesox.com/"> https://chicagobikesox.com/</a>.
+    <a href="https://chicagobikesox.com/"> https://chicagobikesox.com/</a>. And
+    in Baltimore ride with the
+    <a href="https://baltimorebikebirds.com/">Bike Birds</a>!
   </div>
 </ContainerLayout>
