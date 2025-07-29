@@ -33,7 +33,7 @@ export const games = [
   },
   {
     name: "Mets",
-    date: "Augst 8th",
+    date: "August 8th",
     id: "mets",
     index: 4,
     time: "7:10pm CDT",
