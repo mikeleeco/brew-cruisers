@@ -3,6 +3,18 @@
   import Icon from "@iconify/svelte";
   import Seo from "$lib/components/utils/Seo.svelte";
   import Footer from "$components/ui/Footer.svelte";
+
+  import { rides } from "$components/data/rides";
+  import { format, differenceInDays } from "date-fns";
+  let today = new Date();
+
+  const ride = rides.reduce(function (prev, current) {
+    return differenceInDays(today, prev.rideTime) <= 0 &&
+      differenceInDays(today, current.rideTime) <
+        differenceInDays(today, prev.rideTime)
+      ? prev
+      : current;
+  }); //returns next ride object
 </script>
 
 <Seo title="Brew Cruisers FAQ" />
@@ -17,7 +29,8 @@
     At the bike rack near Tailgate Haus. If available, we'll find a table to share
     nearby.
     <h2>When?</h2>
-    Every first Friday Brewers home game. The next ride is May 20th. Here's the
+    Every first Friday Brewers home game. The next ride is {ride.date}. Here's
+    the
     <a href="/schedule"> schedule</a>.
     <h2>What should I bring?</h2>
     You, your bike, and a lock.
