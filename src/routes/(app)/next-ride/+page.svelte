@@ -28,7 +28,6 @@
       <span class="text-3xl serif">Details:</span>
       {ride.details}
     </p>
-
     <p class="pb-5">
       Map: <a href="https://maps.app.goo.gl/MLjQyFxpoP9oG4mw5"
         >Great Roundabout of Walker's Point</a

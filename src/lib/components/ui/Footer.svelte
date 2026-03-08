@@ -1,11 +1,18 @@
+<script>
+  import { format } from "date-fns";
+  let today = new Date();
+  let year = format(today, "yyyy");
+</script>
+
 <footer class=" bg-primary bg-opacity-30 px-5 flex flex-col">
   <div class="flex flex-col h-20 place-content-evenly">
-    <p class="">Brew Cruisers 2025</p>
+    <p class="">Brew Cruisers {year}</p>
     <div class="gap-5">
       <div class="flex flex-row gap-5">
         <a
           class="link"
           target="_blank"
+          title="Twitter link"
           rel="noopener noreferrer"
           href="https://twitter.com/intent/follow?screen_name=mkebrewcruisers"
           ><svg
@@ -22,6 +29,7 @@
         <a
           class="link"
           target="_blank"
+          title="Instagram link"
           rel="noopener noreferrer"
           href="https://instagram.com/mkebrewcruisers"
           ><svg
@@ -38,6 +46,7 @@
         <a
           class="link"
           target="_blank"
+          title="Bluesky link"
           rel="noopener noreferrer"
           href="https://bsky.app/profile/brewcruisers.com"
           ><svg

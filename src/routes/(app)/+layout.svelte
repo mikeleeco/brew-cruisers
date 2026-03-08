@@ -32,7 +32,7 @@
 	</a>
 	<!-- <div slot="right" class="text-xs"><ThemeChanger /></div> -->
 </Nav>
-<div class="flex flex-col h-screen">
+<div class="flex min-h-screen flex-col">
 	<div class="flex-grow ">
 		<main class="">
 			<slot />

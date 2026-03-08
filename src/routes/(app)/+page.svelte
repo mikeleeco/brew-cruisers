@@ -23,13 +23,13 @@
       <ul class="">
         {#each games as item}
           <li class={`font-semibold p-2`}>
-            <span class="icon flex flex-row gap-2"
+            <span class="flex flex-row gap-2"
               ><Icon
                 icon={"mdi:baseball-diamond-outline"}
                 width="30"
                 height="30"
               />
-              <p class={`text-lg text-[${item.color}]`}>
+              <p class={``} style="text-color: {item.color}">
                 <span class={`underline decoration-accent`}>{item.name}</span>, {item.date}
                 @ {item.time}
               </p>

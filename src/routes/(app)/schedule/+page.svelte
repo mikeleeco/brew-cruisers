@@ -9,7 +9,7 @@
 <ContainerLayout>
 	<div slot="column">
 		<h1>Schedule</h1>
-		<ul class="">
+		<ul class="pt-5">
 			{#each games as item}
 				<li class={`font-semibold py-2`}>
 					<span class="icon flex flex-row gap-2"

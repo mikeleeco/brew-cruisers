@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+    --font-sans: "geist", sans-serif;
+    --font-serif: "Hanuman Variable", sans-serif;
+}
+
+@layer components {
+    .select {
+        @apply font-semibold rounded-lg select-primary cursor-pointer;
+    }
+
+    .label {
+        @apply font-semibold p-0;
+    }
+}
+
+/* [data-theme='light'] {
+        --theme-color-primary: #f7a800;
+        --theme-color-accent: #00a8e1;
+        --theme-color-neutral: #020104;
+        --theme-color-hover: #ececec;
+        --theme-color-info: #e7f0ed;
+        --theme-color-base-button: #d6d9e0;
+        --theme-color-secondary: #f7a800;
+        --theme-color-success: #28e6b0;
+        --theme-color-warning: #f2c04a;
+        --theme-color-error: #ec696b;
+    }
+
+    [data-theme='dark'] {
+        --theme-color-primary: #00a8e1;
+        --theme-color-accent: #f7a800;
+        --theme-color-neutral: #ffffff;
+        --theme-color-hover: #919d9d;
+        --theme-color-info: #0d2240;
+        --theme-color-base-button: #494854;
+        --theme-color-secondary: #00a8e1;
+        --theme-color-success: #13534b;
+        --theme-color-warning: #f7c01d;
+        --theme-color-error: #f16a7e;
+    } */
+
+
+@plugin "daisyui/theme" {
+    name: "dark";
+    default: true;
+    /* set as default */
+    prefersdark: false;
+    /* set as default dark mode (prefers-color-scheme:dark) */
+    color-scheme: dark;
+    /* color of browser-provided UI */
+
+    --color-primary: oklch(0.6869 0.13965 231.7229);
+    --color-accent: oklch(0.7887 0.166297 75.1307);
+    --color-neutral: oklch(1 0 0);
+    --color-hover: oklch(0.6864 0.0137 196.84);
+    --color-info: oklch(0.253 0.063 257.62);
+    --color-base-button: oklch(0.4072 0.0199 289.31);
+    --color-secondary: oklch(0.6869 0.13965 231.7229);
+    --color-success: oklch(0.4009 0.0638 182.86);
+    --color-warning: oklch(0.8344 0.1656 86.91);
+    --color-error: oklch(0.6941 0.1666 13.41);
+}
+
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    /* set as default */
+    prefersdark: false;
+    /* set as default dark mode (prefers-color-scheme:dark) */
+    color-scheme: light;
+    /* color of browser-provided UI */
+
+    --color-primary: oklch(0.7887 0.166297 75.1307);
+    --color-accent: oklch(0.6869 0.13965 231.7229);
+    --color-neutral: oklch(0.253 0.063 257.62);
+    --color-hover: oklch(0.9431 0 0);
+    --color-info: oklch(0.9475 0.0104 174.27);
+    --color-base-button: oklch(0.885 0.0101 267.35);
+    --color-secondary: oklch(0.7887 0.166297 75.1307);
+    --color-success: oklch(0.8242 0.1614 167.39);
+    --color-warning: oklch(0.8318 0.1433 85.33);
+    --color-error: oklch(0.6814 0.1626 21.47);
+}
+
+@layer base {
+
+    h1 {
+        @apply text-neutral text-6xl font-medium pt-5;
+    }
+
+    h2 {
+        @apply text-neutral pt-5;
+    }
+
+    h1 {
+        @apply font-serif text-6xl;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    h4 {
+        @apply text-xl;
+    }
+
+    h5 {
+        @apply text-lg;
+    }
+
+    a {
+        @apply underline decoration-accent text-neutral hover:text-accent;
+    }
+
+    p {
+        @apply text-neutral
+    }
+
+    li {
+        @apply hover:text-neutral;
+    }
+
+    button.base {
+        @apply hover:opacity-90 p-3 rounded-md shadow-md;
+    }
+
+    :root {
+        @apply bg-info;
+    }
+
+
+}
