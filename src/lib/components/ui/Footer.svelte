@@ -10,9 +10,9 @@
     <div class="gap-5">
       <div class="flex flex-row gap-5">
         <a
-          class="link"
+          class="link text-neutral"
           target="_blank"
-          title="Twitter link"
+          title="Twitter icon"
           rel="noopener noreferrer"
           href="https://twitter.com/intent/follow?screen_name=mkebrewcruisers"
           ><svg
@@ -27,9 +27,9 @@
           ></a
         >
         <a
-          class="link"
+          class="link text-neutral"
           target="_blank"
-          title="Instagram link"
+          title="Instagram icon"
           rel="noopener noreferrer"
           href="https://instagram.com/mkebrewcruisers"
           ><svg
@@ -44,9 +44,9 @@
           ></a
         >
         <a
-          class="link"
+          class="link text-neutral"
           target="_blank"
-          title="Bluesky link"
+          title="Bluesky icon"
           rel="noopener noreferrer"
           href="https://bsky.app/profile/brewcruisers.com"
           ><svg

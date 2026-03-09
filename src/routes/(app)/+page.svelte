@@ -3,8 +3,8 @@
   import { games } from "$components/data/games";
   import Icon from "@iconify/svelte";
   import Seo from "$lib/components/utils/Seo.svelte";
+  
 </script>
-
 <Seo />
 <ContainerLayout>
   <div slot="column">

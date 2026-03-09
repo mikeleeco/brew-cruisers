@@ -9,6 +9,8 @@
 	<!-- <link href="./output.css" rel="stylesheet"> -->
 	<script async crossorigin="anonymous">
 		var selectedTheme = localStorage.getItem('theme');
+		import { theme } from '$stores/theme.js';
+
 		if (selectedTheme) {
 			document.documentElement.setAttribute('data-theme', selectedTheme);
 		} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { page } from "$app/stores";
 
 	export let links;
 	export let collapsible = false;
@@ -8,7 +7,7 @@
 	import ThemeChanger from "./ThemeChanger.svelte";
 </script>
 
-<div class={`navbar bg-primary h-20 ${classNames}`}>
+<div class={`navbar bg-info border-b-5  ${classNames}`}>
 	<div class="navbar-start">
 		<slot name="left" />
 
@@ -40,9 +39,9 @@
 				>
 					{#if links}
 						{#each links as item}
-							<a class="" href={item.path}>
+							<a class="text-neutral" href={item.path}>
 								<li
-									class="font-semibold text-sm item px-5 py-2 hover:bg-[--hover] hover:border-accent border-2 border-transparent"
+									class="font-semibold text-sm item px-5 py-2 hover:bg-[--hover] hover:text-accent  hover:shadow-sm"
 								>
 									{item.name}
 								</li></a

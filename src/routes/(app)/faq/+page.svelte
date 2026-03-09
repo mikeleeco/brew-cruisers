@@ -68,16 +68,21 @@
       to our bikes, but it's best to leave any valuables at home or bring them into
       the stadium. We recommend you use a good bike lock whenever you lock up.
       <h2>What can I bring into the ballpark?</h2>
-      Bags small bags (9" x 5"x 2" or smaller) clear totes (12" x 12" x 6" or smaller)
-      diaper bags accompanied by a baby medical necessities no backpacks! Food in a
-      clear storage bag no larger than 1 gallon Water one factory sealed bottle of
-      water we haven't been turned away with an empty soft-plastic bike bottle to fill
-      inside but it's technically against policy: be prepared to have to return it
-      to your bike For more information see the
-      <a href="https://www.mlb.com/brewers/ballpark/security"
-        >2026 Brewers Bag Policy</a
-      >
-      and list of prohibited items.
+      <ul class='list-disc list-inside'>
+        <li>
+          Bags small bags (9" x 5"x 2" or smaller) clear totes (12" x 12" x 6" or smaller)
+          diaper bags accompanied by a baby medical necessities no backpacks!
+        </li>
+        <li>
+          Food in a
+          clear storage bag no larger than 1 gallon
+        </li>
+        <li>Water must come in a factory sealed bottle. The Brewers website doesn't appear to have an official policy on empty plastic water bottles. Other teams such as the <a href="https://www.mlb.com/whitesox/ballpark/information/guide#">White Sox</a> and <a href="https://www.mlb.com/twins/ballpark/information/guide#">Twins</a> allow it.</li> </ul>
+      For more information see the
+        <a href="https://www.mlb.com/brewers/ballpark/security"
+          >2026 Brewers Security Policy</a
+        >
+        and list of prohibited items.
       <h2>Is there a place I can check my bag?</h2>
       No. Other ballparks have started accommodating ticket buyers with bag checks,
       but this service is not available at American Family Field. You can leave stuff
@@ -90,3 +95,9 @@
     </ul>
   </div>
 </ContainerLayout>
+
+<style>
+  h2 {
+    padding-bottom: 5px;
+  }
+</style>
