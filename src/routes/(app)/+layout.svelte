@@ -3,30 +3,29 @@
 	import { links } from "$components/data/navLinks";
 	import { theme } from "$stores/theme.js";
 	import Footer from "$components/ui/Footer.svelte";
-</script>
+	</script>
 
 <!-- <Seo title={$page.url.pathname} /> -->
 <!-- <Nav links={null} collapsible={false} showLinksOnDesktop={true}> -->
-
 <Nav {links} collapsible={true} showLinksOnDesktop={true}>
-	<a
+<a
 		slot="left-logo"
-		class="font-semibold text-neutral hover:text-accent text-xl hover:bg-[--hover] border-2 border-transparent"
+		data-sveltekit-preload-data="off"
+		class="font-semibold text-neutral hover:text-accent text-xl hover:bg-[--hover] border-2 border-transparent w-25"
 		href="/"
 	>
-		{#if $theme == "dark"}
+			 
+	
+		{#if $theme == "dark" || $theme === 'default'}
 			<img
-				src="/img/Folder/Brew1-05.png"
+				src="/img/Folder/Brew1-05-small.webp?enhanced"
 				alt="logo-dark"
-				height="20"
-				width="100"
 			/>
 		{:else}
 			<img
-				src="/img/Folder/Brew1-04.png"
+				src="/img/Folder/Brew1-04-small.webp?enhanced"
 				alt="logo-light"
-				height="20"
-				width="100"
+
 			/>
 		{/if}
 	</a>

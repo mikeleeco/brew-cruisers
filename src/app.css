@@ -1,6 +1,8 @@
 @import "tailwindcss";
-@plugin "daisyui";
 
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
+}
 
 @theme {
     --font-sans: "geist", sans-serif;
@@ -46,9 +48,9 @@
 
 @plugin "daisyui/theme" {
     name: "dark";
-    default: true;
+    default: false;
     /* set as default */
-    prefersdark: false;
+    prefersdark: true;
     /* set as default dark mode (prefers-color-scheme:dark) */
     color-scheme: dark;
     /* color of browser-provided UI */
@@ -118,7 +120,7 @@
     }
 
     a {
-        @apply underline decoration-accent text-neutral hover:text-accent;
+        @apply underline decoration-accent text-accent hover:text-accent;
     }
 
     p {

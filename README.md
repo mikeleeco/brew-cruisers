@@ -36,3 +36,6 @@ September 12th
 6:10pm
 
 📷: Milwaukee Journal photo by William Meyer
+
+
+convert static/img/Folder/Brew1-01.png -resize 400x80 static/img/Folder/Brew1-01-small.png
