@@ -1,10 +1,8 @@
 <script>
+	let { children } = $props();
 	// export let image;
 </script>
 
-<div class="flex w-full justify-center  p-8 sm:px-16">
-	<slot name="column" />
-</div>
-<div class="w-full p-5">
-	<slot name="main-panel" />
+<div class="max-w-8xl mx-auto p-5 py-10 px-10">
+	{@render children?.()}
 </div>

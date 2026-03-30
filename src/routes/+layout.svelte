@@ -1,9 +1,9 @@
 <script>
 	  let { children } = $props();
 
-  import '@fontsource-variable/saira/wght.css';
-  import '@fontsource-variable/hanuman/wght.css';
-	  import "../app.css";
+    import '@fontsource-variable/saira/wght.css';
+    import '@fontsource-variable/hanuman/wght.css';
+	  import "../output.css";
 </script>
 
 <style>

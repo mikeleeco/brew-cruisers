@@ -1,5 +1,5 @@
 <script>
-  import ContainerLayout from "$components/ui/ContainerLayout.svelte";
+  import ColumnLayout from "$components/ui/ColumnLayout.svelte";
   import Icon from "@iconify/svelte";
   import Seo from "$lib/components/utils/Seo.svelte";
   import Footer from "$components/ui/Footer.svelte";
@@ -20,8 +20,7 @@
 
 <Seo title="Brew Cruisers Next Ride" />
 
-<ContainerLayout>
-  <div slot="column">
+<ColumnLayout>
     <h1 class="pb-5">Next ride</h1>
     <RideInfo {ride} />
     <p class="py-5">
@@ -44,5 +43,4 @@
 			<span class="text-3xl serif">Date:</span>
 			{ride.date}
 		</p> -->
-  </div>
-</ContainerLayout>
+</ColumnLayout>

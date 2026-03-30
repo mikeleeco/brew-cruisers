@@ -60,7 +60,7 @@
     --color-neutral: oklch(1 0 0);
     --color-hover: oklch(0.6864 0.0137 196.84);
     --color-info: oklch(0.253 0.063 257.62);
-    --color-base-button: oklch(0.4072 0.0199 289.31);
+    --color-base: oklch(0.213 0.063 257.62);
     --color-secondary: oklch(0.6869 0.13965 231.7229);
     --color-success: oklch(0.4009 0.0638 182.86);
     --color-warning: oklch(0.8344 0.1656 86.91);
@@ -82,7 +82,7 @@
     --color-neutral: oklch(0.253 0.063 257.62);
     --color-hover: oklch(0.9431 0 0);
     --color-info: oklch(0.9475 0.0104 174.27);
-    --color-base-button: oklch(0.885 0.0101 267.35);
+    --color-base: oklch(0.9875 0.0104 174.27);
     --color-secondary: oklch(0.7887 0.166297 75.1307);
     --color-success: oklch(0.8242 0.1614 167.39);
     --color-warning: oklch(0.8318 0.1433 85.33);
@@ -92,20 +92,13 @@
 @layer base {
 
     h1 {
-        @apply text-neutral text-6xl font-medium pt-5;
+        @apply text-neutral font-serif text-6xl font-medium pt-5;
     }
 
     h2 {
-        @apply text-neutral pt-5;
+        @apply text-neutral pt-5 text-4xl;
     }
 
-    h1 {
-        @apply font-serif text-6xl;
-    }
-
-    h2 {
-        @apply text-4xl;
-    }
 
     h3 {
         @apply text-2xl;
@@ -132,12 +125,15 @@
     }
 
     button.base {
-        @apply hover:opacity-90 p-3 rounded-md shadow-md;
+        @apply p-3 rounded-md shadow-md;
     }
 
     :root {
         @apply bg-info;
     }
 
+    .logo {
+        @apply pl-68 pt-4
+    }
 
 }

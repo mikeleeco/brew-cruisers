@@ -20,7 +20,6 @@
 <Seo title="Brew Cruisers FAQ" />
 
 <ContainerLayout>
-  <div slot="column">
     <h1>FAQ</h1>
     <ul>
       <h2>A bike rack tailgate?</h2>
@@ -93,7 +92,6 @@
       in Baltimore ride with the
       <a href="https://baltimorebikebirds.com/">Bike Birds</a>!
     </ul>
-  </div>
 </ContainerLayout>
 
 <style>

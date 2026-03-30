@@ -1,15 +1,13 @@
 <script lang="ts">
 
-	export let links;
-	export let collapsible = false;
-	export let showLinksOnDesktop = true;
-	export let classNames = null;
+	let { left = null, right = null, center = null, leftLogo, links, collapsible = false , showLinksOnDesktop = true, classNames = '' } = $props();
+
 	import ThemeChanger from "./ThemeChanger.svelte";
 </script>
 
-<div class={`navbar bg-info border-b-5  ${classNames}`}>
+<div class={`navbar bg-info border-b-5  h-20 ${classNames}`}>
 	<div class="navbar-start">
-		<slot name="left" />
+		
 
 		{#if collapsible}
 			<div class="dropdown">
@@ -57,12 +55,12 @@
 
 		<!-- <slot name="dropdown" /> -->
 
-		<slot name="left-logo" />
+		{@render leftLogo?.()}
 	</div>
 
 	<!--  -->
 	<div class="navbar-center hidden h-16 sm:flex">
-		<slot name="center" />
+		{@render center?.()}
 		{#if links}
 			{#if showLinksOnDesktop}
 				<ul class="menu-horizontal">
@@ -83,6 +81,6 @@
 		{/if}
 	</div>
 	<div class="navbar-end">
-		<slot name="right" />
+		{@render right?.()}
 	</div>
 </div>
