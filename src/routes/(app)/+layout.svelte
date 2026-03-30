@@ -8,8 +8,9 @@
 <!-- <Seo title={$page.url.pathname} /> -->
 <!-- <Nav links={null} collapsible={false} showLinksOnDesktop={true}> -->
 <Nav {links} collapsible={true} showLinksOnDesktop={true}>
+{#snippet leftLogo()}
+
 <a
-		slot="left-logo"
 		data-sveltekit-preload-data="off"
 		class="font-semibold text-neutral hover:text-accent text-xl hover:bg-[--hover] border-2 border-transparent w-25"
 		href="/"
@@ -29,6 +30,7 @@
 			/>
 		{/if}
 	</a>
+	{/snippet}
 	<!-- <div slot="right" class="text-xs"><ThemeChanger /></div> -->
 </Nav>
 <div class="flex min-h-screen flex-col">

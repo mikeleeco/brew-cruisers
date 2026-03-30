@@ -1,7 +1,7 @@
 <script>
 	export let title = 'Brew Cruisers';
-	export let description = 'A Brewers bike ride.';
-	export let keywords = 'bicycles, advocacy, health, group rides, community';
+	export let description = 'A Brewers bike ride tailgate.';
+	export let keywords = 'bicycles, baseball, advocacy, health, group rides, community';
 	export let image = 'https://www.brewcruisers.netlify.com/img/logo.png';
 </script>
 

@@ -4,7 +4,7 @@ export const games = [
     date: "April 10th",
     id: "nationals",
     index: 0,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "oklch(0.4656 0.1908 28.83)",
   },
   {
@@ -12,7 +12,7 @@ export const games = [
     date: "May 8th",
     id: "yankees",
     index: 1,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "#132448",
   },
   {
@@ -20,7 +20,7 @@ export const games = [
     date: "June 12th",
     id: "Phillies",
     index: 2,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "#E81828",
   },
   {
@@ -28,7 +28,7 @@ export const games = [
     date: "July 17th",
     id: "Marlins",
     index: 3,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "#0077C8",
   },
   {
@@ -36,7 +36,7 @@ export const games = [
     date: "August 21st",
     id: "braves",
     index: 4,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "#CE1141",
   },
   {
@@ -44,7 +44,7 @@ export const games = [
     date: "September 11th",
     id: "reds",
     index: 5,
-    time: "6:40pm CDT",
+    time: "6:40pm",
     color: "#C6011F",
   },
 ];

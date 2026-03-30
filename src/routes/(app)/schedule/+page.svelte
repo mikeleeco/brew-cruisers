@@ -1,13 +1,12 @@
 <script>
 	import { games } from '$components/data/games';
-	import ContainerLayout from '$components/ui/ContainerLayout.svelte';
+	import ColumnLayout from '$components/ui/ColumnLayout.svelte';
 	import Icon from '@iconify/svelte';
 	import Seo from '$lib/components/utils/Seo.svelte';
 </script>
 
 <Seo title="Brew Cruisers Schedule"/>
-<ContainerLayout>
-	<div slot="column">
+<ColumnLayout>
 		<h1>Schedule</h1>
 		<ul class="pt-5">
 			{#each games as item}
@@ -20,5 +19,4 @@
 				</li>
 			{/each}
 		</ul>
-	</div>
-</ContainerLayout>
+</ColumnLayout>
