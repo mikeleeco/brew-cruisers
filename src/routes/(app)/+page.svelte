@@ -33,7 +33,7 @@
         <div class="pt-5 text-lg gap-5 flex flex-col">
           <div><ul class="list-disc list-outside pl-5">
       
-              <li>All games Friday, 6:40pm first pitch</li>
+              <li>All games Friday, 6:40pm first pitch (except August!)</li>
               <li>Gather at the Great Roundabout of Walker's Point at 5:25pm. Roll out at 5:40pm.</li>
       
           </ul>

@@ -29,7 +29,7 @@
       We meet at the <a href="https://maps.app.goo.gl/CptZ9xqDr5rYHcs89">Great Roundabout of Walker's Point</a> 75 minutes before game time and roll out an hour before first pitch. For example
       on {ride.date}, We'll park at the bike rack near the <a href="https://maps.app.goo.gl/a6tiU4RDqKxbU98i7">Tailgate Haus</a> and tailgate at the tables nearby.
       <h2>When?</h2>
-      Every first Friday Brewers home game. The next ride is {ride.date} vs the {ride.name}. We'll meet at 5:25pm and roll out at 5:40. Here's
+      Typically the first Friday Brewers home game each month of the season. The next ride is {ride.date} vs the {ride.name}. We'll meet at 5:25pm and roll out at 5:40. Here's
       the
       <a href="/schedule"> schedule</a>. 
       <h2>What should I bring?</h2>

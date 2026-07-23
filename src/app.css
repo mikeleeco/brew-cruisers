@@ -136,4 +136,11 @@
         @apply pl-68 pt-4
     }
 
+    p.cross {
+        @apply line-through decoration-3 decoration-accent
+    }
+
+    .preview {
+        @apply self-center flex w-100
+    }
 }
