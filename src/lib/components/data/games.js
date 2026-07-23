@@ -32,12 +32,12 @@ export const games = [
     color: "#0077C8",
   },
   {
-    name: "Braves",
-    date: "August 21st",
-    id: "braves",
+    name: "Mariners",
+    date: "August 18th",
+    id: "mariners",
     index: 4,
     time: "6:40pm",
-    color: "#CE1141",
+    color: "#005C5C",
   },
   {
     name: "Reds",
