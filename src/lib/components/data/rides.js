@@ -71,7 +71,7 @@ export const rides = [
     index: 5,
     time: "6:40pm CDT",
     color: "#C6011F",
-    rideTime: "Friday, September 12, 2026 5:40:00 PM",
+    rideTime: "Friday, September 11, 2026 5:40:00 PM",
     details:
       "Gather at the Great Roundabout of Walker's Point at 5:25pm. Roll out an hour before first pitch at 6:40.",
     location: "Great Roundabout of Walker's Point",
